@@ -1,0 +1,322 @@
+週日 3月 8 10:47:38 2015 OSMC Installer running on Mac OS X
+週日 3月 8 10:47:38 2015 Detected locale as zh_TW
+週日 3月 8 10:47:38 2015 Attempting to load translation for locale zh_TW
+週日 3月 8 10:47:38 2015 Could not load translation!
+週日 3月 8 10:47:38 2015 Resolving a mirror
+週日 3月 8 10:47:39 2015 Resolved mirror to http://46.37.189.135/osmc/download/
+週日 3月 8 10:47:39 2015 Enumerating supported devices
+週日 3月 8 10:47:39 2015 Added the following devices
+週日 3月 8 10:47:39 2015 Raspberry Pi
+週日 3月 8 10:47:39 2015 Raspberry Pi 2
+週日 3月 8 10:47:39 2015 Checking for updates
+週日 3月 8 10:47:39 2015 Checking for updates by downloading http://46.37.189.135/osmc/download//installers/latest_mac
+週日 3月 8 10:47:40 2015 Acquired mirror file
+週日 3月 8 10:47:40 2015 No new update is available
+週日 3月 8 10:48:26 2015 The user has selected English as their language
+週日 3月 8 10:48:26 2015 The user has selected Raspberry Pi 2 as their device
+週日 3月 8 10:48:26 2015 Attempting to download device versions file http://46.37.189.135/osmc/download/installers/versions_RBP2
+週日 3月 8 10:48:27 2015 Found a build called  Alpha4
+週日 3月 8 10:49:03 2015 The user has selected an online image for Raspberry Pi 2 with build URL : http://46.37.189.135/osmc/download/installers/diskimages/OSMC_TGT_rbp2_20150202.img.gz
+週日 3月 8 10:49:03 2015 Disabling internal install for device Raspberry Pi 2 as it does not support it
+週日 3月 8 10:49:12 2015 SD installation selected
+週日 3月 8 10:49:52 2015 Wireless network configured with SSID coltrane key value 0921092803ABC
+週日 3月 8 10:49:52 2015 Enumerating imageable devices for OSX
+週日 3月 8 10:49:52 2015 New disk device entry created with entry point /dev/rdisk0, 251.0 GB free space and label 
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Determined PCI as protocol for /dev/rdisk0
+週日 3月 8 10:49:52 2015 Decided to be a DMG? 
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Determined No as readOnlyMedia for /dev/rdisk0
+週日 3月 8 10:49:52 2015 Decided to be r/o? 
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Determined No as ejactableProperty for /dev/rdisk0
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 10:49:52 2015 New disk device entry created with entry point /dev/rd249.8, Macintosh HD free space and label 
+週日 3月 8 10:49:52 2015 Decided that /dev/rd249.8 is not writable to us
+週日 3月 8 10:49:52 2015 New disk device entry created with entry point /dev/rdisk2, 4.0 GB free space and label 
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 10:49:52 2015 Determined USB as protocol for /dev/rdisk2
+週日 3月 8 10:49:52 2015 Decided to be a DMG? 
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 10:49:52 2015 Determined No as readOnlyMedia for /dev/rdisk2
+週日 3月 8 10:49:52 2015 Decided to be r/o? 
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 10:49:52 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 10:49:52 2015 Determined Yes as ejactableProperty for /dev/rdisk2
+週日 3月 8 10:49:52 2015 New disk device entry created with entry point /dev/rdisk3, 25.7 MB free space and label 
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Determined Disk Image as protocol for /dev/rdisk3
+週日 3月 8 10:49:53 2015 ecided to be a DMG? 
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Determined Yes as readOnlyMedia for /dev/rdisk3
+週日 3月 8 10:49:53 2015 ecided to be r/o? 
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Determined Yes as ejactableProperty for /dev/rdisk3
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:49:53 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 10:50:04 2015 Device selected: 2	/dev/rdisk2	4.0 GB	APPLE SD Card Reader Media
+週日 3月 8 10:50:08 2015 EULA has been accepted
+週日 3月 8 10:50:08 2015 Downloading http://46.37.189.135/osmc/download/installers/diskimages/OSMC_TGT_rbp2_20150202.img.gz
+週日 3月 8 10:50:54 2015 Download successful
+週日 3月 8 10:50:54 2015 Extracting /Users/kansasray/OSMC_TGT_rbp2_20150202.img.gz
+週日 3月 8 10:50:55 2015 Finished extraction. Going to write image
+週日 3月 8 10:50:55 2015 Requesting confirmation from user
+週日 3月 8 10:51:20 2015 User confirmed
+週日 3月 8 10:51:24 2015 going to start osa
+週日 3月 8 10:51:24 2015 pasting admin script to process do shell script "dd if=/Users/kansasray/OSMC_TGT_rbp2_20150202.img of=/dev/rdisk2 bs=1m conv=sync && sync" with administrator privileges
+週日 3月 8 10:51:24 2015 waiting for finish
+週日 3月 8 10:53:07 2015 osa claims to be done...collect output and verify
+週日 3月 8 10:53:07 2015 Imaging was successful
+週日 3月 8 10:53:07 2015 Image successfully written to device
+週日 3月 8 10:53:07 2015 Deleting the uncompressed image to save space
+週日 3月 8 10:53:07 2015 Creating preseeder
+週日 3月 8 10:53:07 2015 Adding preseed stringd-i target/storage string sd
+週日 3月 8 10:53:07 2015 Adding preseed stringd-i network/interface string wlan
+週日 3月 8 10:53:07 2015 Adding preseed stringd-i network/auto boolean true
+週日 3月 8 10:53:07 2015 Adding preseed stringd-i network/ssid string coltrane
+週日 3月 8 10:53:07 2015 Adding preseed stringd-i network/wlan_keytype string 1
+週日 3月 8 10:53:07 2015 Adding preseed stringd-i network/wlan_key string 0921092803ABC
+週日 3月 8 10:53:07 2015 Writing preseeder
+週日 3月 8 10:53:07 2015 Mounting the first filesystem on /dev/rdisk2
+週日 3月 8 10:53:07 2015 Trying to umount before we are remounting and writing the preseed.
+週日 3月 8 10:53:07 2015 Could not mount /dev/rdisk2s1. Messages are: stdErr: disk2s1 was already unmounted
+
+ stdOut: 
+週日 3月 8 10:53:12 2015 Mounting /dev/rdisk2s1 to /var/folders/b6/gfv10lnx4sn1mr63l3xtzxr40000gn/T/osmc_mnt
+週日 3月 8 10:53:12 2015 Filesystem is mounted
+週日 3月 8 10:53:12 2015 Writing the preseeder to filesystem
+週日 3月 8 10:53:13 2015 Finished. Syncing...
+週日 3月 8 10:53:17 2015 Unmount in any case...
+週日 3月 8 10:53:24 2015 Final sync.
+週日 3月 8 11:17:17 2015 OSMC Installer running on Mac OS X
+週日 3月 8 11:17:17 2015 Detected locale as zh_TW
+週日 3月 8 11:17:17 2015 Attempting to load translation for locale zh_TW
+週日 3月 8 11:17:17 2015 Could not load translation!
+週日 3月 8 11:17:17 2015 Resolving a mirror
+週日 3月 8 11:17:19 2015 Resolved mirror to http://46.37.189.135/osmc/download/
+週日 3月 8 11:17:19 2015 Enumerating supported devices
+週日 3月 8 11:17:19 2015 Added the following devices
+週日 3月 8 11:17:19 2015 Raspberry Pi
+週日 3月 8 11:17:19 2015 Raspberry Pi 2
+週日 3月 8 11:17:19 2015 Checking for updates
+週日 3月 8 11:17:19 2015 Checking for updates by downloading http://46.37.189.135/osmc/download//installers/latest_mac
+週日 3月 8 11:17:19 2015 Acquired mirror file
+週日 3月 8 11:17:19 2015 No new update is available
+週日 3月 8 11:17:30 2015 The user has selected English as their language
+週日 3月 8 11:17:30 2015 The user has selected Raspberry Pi 2 as their device
+週日 3月 8 11:17:30 2015 Attempting to download device versions file http://46.37.189.135/osmc/download/installers/versions_RBP2
+週日 3月 8 11:17:31 2015 Found a build called  Alpha4
+週日 3月 8 11:17:36 2015 The user has selected an online image for Raspberry Pi 2 with build URL : http://46.37.189.135/osmc/download/installers/diskimages/OSMC_TGT_rbp2_20150202.img.gz
+週日 3月 8 11:17:36 2015 Disabling internal install for device Raspberry Pi 2 as it does not support it
+週日 3月 8 11:17:37 2015 SD installation selected
+週日 3月 8 11:20:04 2015 Wireless network configured with SSID Coltrane key value 0921092803ABC
+週日 3月 8 11:20:04 2015 Enumerating imageable devices for OSX
+週日 3月 8 11:20:04 2015 New disk device entry created with entry point /dev/rdisk0, 251.0 GB free space and label 
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Determined PCI as protocol for /dev/rdisk0
+週日 3月 8 11:20:04 2015 Decided to be a DMG? 
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Determined No as readOnlyMedia for /dev/rdisk0
+週日 3月 8 11:20:04 2015 Decided to be r/o? 
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Determined No as ejactableProperty for /dev/rdisk0
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 Decided that /dev/rdisk0 is not writable to us
+週日 3月 8 11:20:04 2015 New disk device entry created with entry point /dev/rd249.8, Macintosh HD free space and label 
+週日 3月 8 11:20:05 2015 Decided that /dev/rd249.8 is not writable to us
+週日 3月 8 11:20:05 2015 New disk device entry created with entry point /dev/rdisk2, 4.0 GB free space and label 
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 11:20:05 2015 Determined USB as protocol for /dev/rdisk2
+週日 3月 8 11:20:05 2015 Decided to be a DMG? 
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 11:20:05 2015 Determined No as readOnlyMedia for /dev/rdisk2
+週日 3月 8 11:20:05 2015 Decided to be r/o? 
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk2 is not writable to us
+週日 3月 8 11:20:05 2015 Determined Yes as ejactableProperty for /dev/rdisk2
+週日 3月 8 11:20:05 2015 New disk device entry created with entry point /dev/rdisk3, 25.7 MB free space and label 
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Determined Disk Image as protocol for /dev/rdisk3
+週日 3月 8 11:20:05 2015 ecided to be a DMG? 
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Determined Yes as readOnlyMedia for /dev/rdisk3
+週日 3月 8 11:20:05 2015 ecided to be r/o? 
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Determined Yes as ejactableProperty for /dev/rdisk3
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:05 2015 Decided that /dev/rdisk3 is not writable to us
+週日 3月 8 11:20:08 2015 Device selected: 2	/dev/rdisk2	4.0 GB	APPLE SD Card Reader Media
+週日 3月 8 11:20:12 2015 EULA has been accepted
+週日 3月 8 11:20:12 2015 Downloading http://46.37.189.135/osmc/download/installers/diskimages/OSMC_TGT_rbp2_20150202.img.gz
+週日 3月 8 11:20:58 2015 Download successful
+週日 3月 8 11:20:58 2015 Extracting /Users/kansasray/OSMC_TGT_rbp2_20150202.img.gz
+週日 3月 8 11:20:59 2015 Finished extraction. Going to write image
+週日 3月 8 11:20:59 2015 Requesting confirmation from user
+週日 3月 8 11:25:58 2015 User confirmed
+週日 3月 8 11:26:00 2015 going to start osa
+週日 3月 8 11:26:00 2015 pasting admin script to process do shell script "dd if=/Users/kansasray/OSMC_TGT_rbp2_20150202.img of=/dev/rdisk2 bs=1m conv=sync && sync" with administrator privileges
+週日 3月 8 11:26:00 2015 waiting for finish
+週日 3月 8 11:27:06 2015 osa claims to be done...collect output and verify
+週日 3月 8 11:27:06 2015 Imaging was successful
+週日 3月 8 11:27:06 2015 Image successfully written to device
+週日 3月 8 11:27:06 2015 Deleting the uncompressed image to save space
+週日 3月 8 11:27:06 2015 Creating preseeder
+週日 3月 8 11:27:06 2015 Adding preseed stringd-i target/storage string sd
+週日 3月 8 11:27:06 2015 Adding preseed stringd-i network/interface string wlan
+週日 3月 8 11:27:06 2015 Adding preseed stringd-i network/auto boolean true
+週日 3月 8 11:27:06 2015 Adding preseed stringd-i network/ssid string Coltrane
+週日 3月 8 11:27:06 2015 Adding preseed stringd-i network/wlan_keytype string 1
+週日 3月 8 11:27:06 2015 Adding preseed stringd-i network/wlan_key string 0921092803ABC
+週日 3月 8 11:27:06 2015 Writing preseeder
+週日 3月 8 11:27:06 2015 Mounting the first filesystem on /dev/rdisk2
+週日 3月 8 11:27:06 2015 Trying to umount before we are remounting and writing the preseed.
+週日 3月 8 11:27:06 2015 Could not mount /dev/rdisk2s1. Messages are: stdErr: disk2s1 was already unmounted
+
+ stdOut: 
+週日 3月 8 11:27:07 2015 Mounting /dev/rdisk2s1 to /var/folders/b6/gfv10lnx4sn1mr63l3xtzxr40000gn/T/osmc_mnt
+週日 3月 8 11:27:08 2015 Filesystem is mounted
+週日 3月 8 11:27:08 2015 Writing the preseeder to filesystem
+週日 3月 8 11:27:08 2015 Finished. Syncing...
+週日 3月 8 11:27:08 2015 Unmount in any case...
+週日 3月 8 11:27:18 2015 Final sync.
