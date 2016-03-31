@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Array</title>
+	<script type="text/javascript">
+	var grades=new Array(3);
+	//輸入學生成績
+	for(var i=0;i<grades.length;i++){
+		grades[i]=Number(prompt("Enter a grade.",""));//用Number轉成數字
+	}
+	//計算平均數
+	var sum=0;
+	for(var i=0;i<grades.length;i++){
+		sum=sum+grades[i];
+	}
+	
+	var avg=sum/grades.length;
+	alert(avg);
+		
+	</script>
+</head>
+<body>
+
+</body>
+</html>

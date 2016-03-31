@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+	function add(){
+		var link=document.createElement("a");//<a></a>
+		link.innerHTML="Google";//<a>Google</a>
+		link.href="http://www.google.com";
+		//<a href="http://www.google.com/">Google</A>
+		document.body.appendChild(link);//連結到HTML DOM中
+	}	
+	function del(){
+		var menu=document.getElementById("menu");
+		var add=document.getElementById("add-btn");
+		menu.removeChild(add);
+	}
+
+	</script>
+</head>
+<body>
+	<div id="menu">
+		<button id="add-btn" onclick="add();">add</button>	
+		<button onclick="del();">delete</button>
+
+	</div>
+	<!--<a></a>-->
+</body>
+</html>

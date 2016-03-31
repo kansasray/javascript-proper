@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML DOM</title>
+	<script type="text/javascript">
+	function get(id){
+		return document.getElementById(id);
+	}
+	/*
+	function $(id){
+		return document.getElementById(Id);
+	}
+	*/
+function changeToPage(){
+	var page=get("page");
+	var img=get("img");
+	var btn=get("btn");
+	page.style.fontWeight="bold";
+	img.style.fontWeight="normal";//fontweight是css屬性
+	btn.value="Page Search";//value是html屬性
+}
+function changeToImg(){
+	var page=get("page");
+	var img=get("img");
+	var btn=get("btn");
+	page.style.fontWeight="normal";
+	img.style.fontWeight="bold";//fontweight 是css屬性
+	btn.value="Image Search";//value 是html屬性
+}
+</script>
+</head>
+<body>
+<div>
+	<span id="page" onclick="changeToPage()">Page</span>
+	<span id="img" onclick="changeToImg()">Image</span>
+</div>
+<div>
+	<input type="text"/>
+	<input type="button" value="Page Search" id="btn"/>
+</div>
+</body>
+</html>

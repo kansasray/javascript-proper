@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>css</title>
+<style type="text/css">
+span{text-decoration:underline} /*標籤名稱選擇器, 最常用在超連結*/
+#bg{background-color:grey} /*ID選擇器*/
+.title{font-weight:bold;font-size:25px} /*class選擇器*/
+.content{width:500px;margin-top:10px;border:1px dashed blue;padding:10px}
+.keyword{color:red}
+.blue{color:blue}
+
+</style>
+</head>
+<body>
+<div class="title blue">Title 1</div>
+<div class="content">Today is a <span id=bg class="keyword">good</span> day.
+</div>
+
+
+</body>
+</html>

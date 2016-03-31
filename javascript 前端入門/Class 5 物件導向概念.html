@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+    var player=new Object();
+    player.name="John Starks";
+    player.hp=100;
+    player.fight=function(){
+       this.hp=this.hp-2;//血量減2
+    };//函式代表一系列的行為
+    player.report=function(){
+    	alert(this.name"+"+this.hp);//回報狀態
+    };
+    player.fight();
+    player.report();
+
+	</script>
+
+</head>
+<body>
+
+</body>
+</html>>

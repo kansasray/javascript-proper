@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript">
+	function checkPrime(n){//變數可用在內部或外部，自己決定
+	    var n=prompt("Enter a number","");//若有下參數，則參數會被此處新參數取代
+		var isPrime=true;//先假設是質數
+		for (var i=2;i<n;i++){//i=2~n-1
+			if (n%i==0) {//整除，不是質數
+				isPrime=false;
+				break;
+			}
+		}
+		
+		if(isPrime){
+			alert("質數");
+		}else{
+			alert("不是質數");
+		}
+		
+	}
+    checkPrime(97);//
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>>

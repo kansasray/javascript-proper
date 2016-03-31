@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>李其倫的自我介紹</title>
+</head>
+<body>
+<table border="2" width="600" cellpadding="15">
+	<tr>
+		<td colspan="4" align="center"><span style="color:blue;font-weight: bold;font-size: 30px">姓名</span></td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center"><span style="font-size:20px"><a target="_blank" href="http://chi-lun.blogspot.com"/>李其倫</span></td>
+	</tr>
+		<tr>
+		<td colspan="4" align="center"><span style="color:blue;font-weight: bold;font-size: 30px">出生年</span></td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center"><span style="font-size:20px">1979(應該和老師年紀差不多?)</span></td>
+	<tr>
+		<td colspan="4" align="center"><span style="color:blue;font-weight: bold;font-size: 30px">興趣</span></td>
+	</tr>
+	<tr>
+		<td align="center">攝影</td>
+		<td align="center">咖啡</td>
+		<td align="center">cnc加工</td>
+		<td align="center">3d列印</td>
+	</tr>
+		<tr>
+		<td colspan="4" align="center">有玩Rpi的版子，玩得很淺，現在只會裝裝現成的套件來使用，有學習python的打算，發現還是需要會寫程式才能用Rpi完成想要的應用，平常會使用cnc加工機來製造一些小玩意兒自己或給朋友玩，例如把Rpi和音響擴大機結合成一個media center</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center"><span style="color:blue;font-weight: bold;font-size: 30px">目前工作和為何來上javascript前端入門</span></td>
+	</tr>
+	<tr>
+		<td colspan="4">和朋友(會寫程式)合資開公司，我負責業務和專案管理，目前網路廣告有一些收入但還在起步階段，未來想弄個網站，於是興起自己來學的念頭。</td>
+	</tr>
+
+</table>
+<body>
+</html>

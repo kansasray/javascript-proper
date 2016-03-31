@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>CSS</title>
+</head>
+<body>
+<div style="color:font-weight:bold;font-size:30px">今天天氣不錯</div>
+<!-- div表示區塊 -->
+<div style="padding:10px;border:1px dashed blue;margin-top:10px">我去公園玩，看到,<span style="color:red">很多</span>車子。</div>
+<div>我去公園玩，看到,<div style="color:red">很多</div>車子。</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parallel lines</title>
+	<script type="text/javascript">
+	  function Point(x,y){
+	  	this.x=x;
+	  	this.y=y;
+	  }
+	  function Line(p1,p2/*點物件*/){
+	  	this.p1=p1;
+	  	this.p2=p2;
+	  	this.slope=(this.p2.y-this.p1.y)/(this.p2.x-this.p1.x)
+	  }
+      
+      //var p1=new Point(1,1)
+      //var p2=new Point(2,3)
+	  //var line=new Line(p1,p2);
+	  var line=new Line(new Point(1,1),new Point(2,3));
+	  alert(line.slope);
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- DOCTYPE 宣告文件類型 -->
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Homepage</title>
+</head>
+<body>
+<h3>My Profile 我的個人資料</h3>
+<a target="_blank" href="http://www.google.com/">Google</a>
+<img src="http://training.pada-x.com/images/about.png"/>
+<h3>My favorite movies</h3>
+<ul>
+<li>The Godfather</li>
+<li>Room</li>
+<h3>Jazz players' dicography</h3>
+<table border="1" width="600" cellpadding="5">
+<!-- 以下練習使用表格 -->
+<tr>
+<td colspan="3"><u>The Golden Age of Jazz music</u></td>
+</tr>
+<tr>
+<td>Musician</td>
+<td>Album 1</td>
+<td>Album 2</td>
+</tr>
+<tr>
+<td>Miles Davis</td>
+<td>Steamin'</td>
+<td>Cookin'</td>
+</tr>
+<tr>
+<td>Red Garland</td>
+<td>Groovy</td>
+<td>Red Garland's piano</td>
+</tr>
+</table>
+</body>
+</html>

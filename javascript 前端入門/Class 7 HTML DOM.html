@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML DOM</title>
+	<script type="text/javascript">
+function change(){
+	//var divObj=document.getElementById("content");
+	//divObj.innerHTML="This is a bad day.";
+	var spanObj=document.getElementById("emotion");
+	spanObj.innerHTML="bad";
+	spanObj.style.color="red";
+	}
+</script>
+</head>
+<body>
+<h3>Hello World</h3>
+
+<div id="content">This is a <span id="emotion">good</span> day.</div>
+<button onclick="change();">Click Me</button>
+
+</body>
+</html>

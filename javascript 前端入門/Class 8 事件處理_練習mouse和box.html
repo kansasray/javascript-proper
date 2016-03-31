@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+	var box;
+	function init(){
+		box=document.getElementById("box");//將box從區域變數改成全域變數到外面，方便使用
+		box.addEventListener("click",pickup);
+
+	}	
+	function pickup(){
+		//box.addEventListener("mousemove",move);//錯誤，會變成指標在box內才會移動;
+		document.addEventListener("mousemove",move);
+		//拿起來之後又再點擊，放下
+		box.removeEventListener("click",pickup);
+		box.addEventListener("click",putdown);
+	}
+	function move(e){
+			//document.title=e.clientX+","+e.clientY;
+			box.style.left=(e.clientX-20)+"px";
+			box.style.top=(e.clientY-20)+"px";
+	}
+	function putdown(){
+		//box.removeEventListener("mousemove",move);//錯誤
+		document.removeEventListener("mousemove",move);
+		//放下之後，若再點擊，應該要拿起來
+		box.removeEventListener("click",putdown);
+		box.addEventListener("click",pickup);
+	}
+	</script>
+	
+	<style type="text/css">
+	.box{
+		width: 100px;height: 100px;background-color: red;
+		position:absolute;left:100px;top:100px;
+	}
+	</style>
+</head>
+<body onload="init();">
+<div class="box" id="box"></div>
+</body>
+</html>

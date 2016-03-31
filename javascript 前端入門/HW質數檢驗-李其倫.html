@@ -1,0 +1,33 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<title>質數檢驗</title>
+	<script type="text/javascript">
+		//n1=Number(n1);
+	while(true){
+		var n1=prompt("請輸入任意一個正整數","");
+		if (isNaN(n1)||n1<=1||n1%1!==0){//檢出非數字、n1小於等於1、非整數
+			alert("請輸入任意一個正整數!");
+		}
+		else{//資料ok, 做質數驗證
+		var n2=Math.floor(Math.sqrt(n1));
+		var n3=0;
+			for(var n=2;n<=n2;n++){
+				if (n1%n==0) {n3++
+				}	 
+			}
+		if (n3>0) {
+			    alert("這個數字不是質數!")
+			}else{
+				alert("這個數字是質數!")
+			}
+			break;
+		}
+	}
+	</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Schedule</title>
+	<script type="text/javascript">
+	var timer;
+	var intervalId;
+		function init(){
+			timer=document.getElementById("timer");
+			intervalId=window.setInterval(count,1000);
+			//alert("test");
+		}
+		function count(){
+			timer.innerHTML=timer.innerHTML-1;
+			if(timer.innerHTML>0) {//繼續倒數
+			}else{//倒數完，做事
+				document.location="http://www.google.com";
+				//alert("Happy Birthday")
+				//window.clearInterval(interalId);
+			}
+		}
+	</script>
+</head>
+<body onload="init();">
+	<span id="timer">5</span>
+	
+</body>
+</html>

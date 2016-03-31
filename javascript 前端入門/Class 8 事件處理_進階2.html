@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+	function init(){
+	var hello=document.getElementById("hello");
+	//基本容易懂的教學
+	var handler=function(e){
+		alert("Hello");
+	};
+
+	hello.addEventListener("click",handler);
+	/*
+	 1. 事件發生了，例如使用者點擊標籤範圍。
+	 2. 瀏覽器收集與事件相關的資訊，並製造一個Even Object用來存放這些資訊。
+	 	var eventObj=事件物件;
+	 3. 呼叫你提供的事件要理器(函式)，並將事件物件透過參數傳入。
+	 	事件處理器 handler(eventObj);
+	*/
+
+//function(){}匿名函式
+//使用匿名函式的常見簡化寫法
+/*hello.addEventListener("click",function(){
+	alert("Hello");
+});
+*/
+//傳統的事件處理方式
+/*hello.onclick.function(){
+	alert("Hello");
+	};
+*/
+};
+	</script>
+</head>
+<body onload="init();"> <!--body被瀏覽器載入完成時，做程式初始化-->
+<span id="hello">Hello</span>
+</body>
+</html>

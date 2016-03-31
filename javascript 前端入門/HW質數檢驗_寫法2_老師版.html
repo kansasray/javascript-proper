@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript">
+	var isPrime=true;//先假設是質數，變數要設在最外部，如果結論要拉到外部的話，設在內部的變數，外部找不到!!
+	function checkPrime(n){//變數可用在內部或外部，自己決定
+		for (var i=2;i<n;i++){//i=2~n-1
+			if (n%i==0) {//整除，不是質數
+				isPrime=false;
+				break;
+			}
+		}
+
+		} 
+var x=prompt("Enter a number","");//也可利用回傳值來處理，下結論的方式就有彈性
+checkPrime(x);
+if (isPrime){
+	alert("是質數");
+	}else{
+		alert("不是質數")
+}
+	</script>
+</head>
+<body>
+
+</body>
+</html>>

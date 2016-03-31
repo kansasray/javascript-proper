@@ -1,0 +1,46 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<script type="text/javascript">
+
+var n1=prompt("enter a number","");
+var n2=prompt("enter a number","");
+n1=Number(n1);
+n2=Number(n2);
+if (isNaN(n1)){alert("Not a number")//輸入的資料不合法，不作運算
+}
+else if(isNaN(n2)){alert("Not a number")//輸入的資料不合法，不作運算
+}
+else{//資料ok，作運算
+var op=prompt("Operation:+,-,*,/","");
+var result;
+if (op=="+") {
+	result=n1+n2;
+	alert(result);
+}
+else if (op=="-") {
+	result=n1-n2;
+	alert(result);
+}
+else if (op=="*") {
+	result=n1*n2;
+	alert(result);
+}
+else if (op=="/") {
+	result=n1/n2;
+	alert(result);
+}
+else{
+	alert("Illegal operation")
+}
+
+}
+
+
+</script>
+</head>
+<body>
+
+</body>
+</html>>

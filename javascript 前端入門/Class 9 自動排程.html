@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Schedule</title>
+	<script type="text/javascript">
+	var timer=document.getElementById("timer");
+		function init(){
+			window.setTimeout(count,1000);
+			//alert("test");
+		}
+		function count(){
+			timer.innerHTML=timer.innerHTML-1;
+			if(timer.innerHTML>0) {//繼續倒數
+			window.setTimeout(count,1000);	
+			}else{//倒數完，做事
+				document.location="http://www.google.com";
+			}
+		}
+	</script>
+</head>
+<body onload="init();">
+	<span id="timer">3</span>
+	
+</body>
+</html>

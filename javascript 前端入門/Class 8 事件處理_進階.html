@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+	function init(){
+	var hello=document.getElementById("hello");
+	var handler=function(){
+		alert("Hello");
+	};
+	hello.addEventListener("click",handler());//click為事件名稱，handler為事件處理器
+	}
+
+	}
+	</script>
+</head>
+<body onload="init();"> <!--body被瀏覽器載入完成時，做程式初始化-->
+<span id="hello">Hello</span>
+</body>
+</html>

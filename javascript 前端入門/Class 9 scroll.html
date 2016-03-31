@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+	var box;
+		function init(){
+			box=document.getElementById("box");
+			box.scrollTop=50;
+			window.setInterval(move,50);
+
+		}
+		function move(){
+			box.scrollTop++;
+		}
+	</script>
+	<style type="text/css">
+	.box{
+		width:100px;height:120px;border:1px solid black;
+		overflow: hidden;
+	}
+	</style>
+</head>
+<body onload="init();">
+<div class="box" id="box">
+	Line 1<br/>Line2<br/>
+	Line 3<br/>Line4<br/>
+	Line 5<br/>Line6<br/>
+	Line 7<br/>Line8<br/>
+	Line 9<br/>Line10<br/>
+	Line 11<br/>Line12<br/>
+	Line 13<br/>Line14<br/>
+</div>
+
+</body>
+</html>

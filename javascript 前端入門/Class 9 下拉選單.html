@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function check(){
+				var gender=getElementById("gender");
+				if (gender.selectedIndex==0){
+				alert("Please choose gender");
+			}else{
+				var options=gender.options[gender.selectedIndex];
+				alert(option.innerHTML);
+			}
+		}
+	</script>
+</head>
+<body>
+	<select id="gender">
+		<option>choose gender</option>
+		<option>male</option>
+		<option>female</option>
+	</select>
+	<button onclick="check();">check</button>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML DOM</title>
+	<script type="text/javascript">
+	/*
+	function change(choice){
+		var popular=document.getElementById("con-0");
+		var Latest=document.getElementById("con-1");
+		if (choice==0){
+			popular.style.display="block";
+			latest.style.display="none";
+		}else{
+			popular.style.display="none";
+			latest.style.display="block";
+		}
+	}
+	*/
+	function change(choice){
+		//先把大家都藏起來
+		var con;
+		for(var i=0;i<3;i++){
+			con=document.getElementById("con-"+i);
+			con.style.display="none";
+		}
+		//再把使用者選定的內容秀出來
+		con=document.getElementById("con-"+choice);
+		con.style.display="block";
+	}
+
+	</script>
+	
+
+</head>
+<body>
+	<div>
+	<span onclick="change(0)">Popular</span>
+	<span onclick="change(1)">Latest</span>
+	<span onclick="change(2)">Recommend</span>
+
+	</div>
+	<hr/>
+	<div id="con-0">Popular Movies</div>
+	<div id="con-1"style="display:"none">Latest Movies</div>
+	<div id="con-2"style="display:"none">Recommend</div>
+
+	<div></div>
+
+</body>
+</html>

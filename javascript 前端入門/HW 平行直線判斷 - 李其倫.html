@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parallel lines</title>
+	<script type="text/javascript">
+		function line(x1,y1,x2,y2){
+			this.x1=x1;this.x2=x2;
+			this.y1=y1;this.y2=y2;
+		}
+
+	var line1=new line(4,4,10,4);
+	var line2=new line(2,3,10,3);
+	line1Slope=((line1.y2-line1.y1)/(line1.x2-line1.x1));
+	line2Slope=((line2.y2-line2.y1)/(line2.x2-line2.x1));
+    	if (Math.abs(line1Slope)==Math.abs(line2Slope)){
+    		alert("line1 is parallel to line2");
+    	}else{
+    		alert("line1 isn't parallel to line2");
+    	}
+	</script>
+</head>
+<body>
+
+</body>
+</html>
