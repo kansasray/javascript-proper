@@ -1,0 +1,60 @@
+#bottom-sidebar{
+	.widget-area-11{
+		.contact-1{
+			margin:0 0 20px;
+		}
+	}
+}
+
+.contact-1{
+	.widget-content{
+		@media( max-width:920px){
+			margin:0 -5px;
+		}
+		text-align:center;
+		margin:0 -20px;
+		>p{
+			@media( max-width:920px){
+				padding:0 5px;
+			}
+			@media( max-width:768px){
+				display:block;
+				text-align:left;
+			}
+			@media( max-width:480px){
+				
+			}
+			display:inline-block;
+			padding:0 20px;
+			@include clearfix;
+		}
+		
+	}
+	.contact-icon{
+		margin:0 10px 0 0;
+		display:block;
+		float:left;
+		width:40px;
+		height:40px;
+		text-align:center;
+		border:1px solid #262626;
+		color:#f9f9f9;
+		@include circle;
+		i{
+			line-height:40px;
+		}
+	}
+	.contact-info{
+		margin-top:3px;
+		overflow:hidden;
+		display:block;
+		a,span{
+			display:inline-block;
+			vertical-align:middle;
+			font-size:14px;
+			line-height:22px;
+			color:#f9f9f9;
+			@include lato-light;
+		}
+	}
+}

@@ -1,0 +1,105 @@
+/**
+ * 2.18 - pagination
+ * -------------------------------------------------------------------
+ */
+
+
+
+.kopa-full-width{
+	.kopa-pagination{
+		>ul{
+			max-width:800px;
+			margin:0 auto;
+		}
+	}
+}
+.kopa-pagination{
+	border-top:3px solid $color-black;
+	width:100%;
+	padding:50px 0;
+	>ul{
+		text-align:center;
+		font-size:0;
+		line-height:0;
+		>li{
+			@media(max-width:768px){
+				display:none;
+			}
+			opacity:0.4;
+			display:inline-block;
+			vertical-align:middle;
+			margin:5px;
+			@include transition(0.3s);
+			&:hover{
+				opacity:1;
+			}
+			a,span{
+				font-size:14px;
+				line-height:26px;
+				color:$color-black;
+				display:block;
+				width:40px;
+				height:40px;
+				line-height:40px;
+				text-align:center;
+				border:1px solid $color-black;
+				@include circle;
+				@include uppercase;
+				@include lato;
+			}
+		}
+		.prev,.next{
+			@media(max-width:768px){
+				display:block;
+			}
+			padding:0 20px;
+			border:1px solid #969696;
+			margin:0;
+			a{
+				color:$color-black;
+				border:0;
+				padding:5px 0;
+				width:auto;
+				height:auto;
+				border-radius:0;
+				background-repeat:no-repeat;
+				@include lato-light;
+			}
+		}
+		.prev{
+			float:left;
+			a{
+				background-image:url("images/icon/arrow-left-2.png");
+				background-position:center left;
+				padding-left:43px;
+			}
+		}
+		.next{
+			float:right;
+			a{
+				background-image:url("images/icon/arrow-right-2.png");
+				background-position:center right;
+				padding-right:43px;
+			}
+		}
+		.current{
+			opacity:1;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

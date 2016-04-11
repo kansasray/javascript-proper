@@ -1,0 +1,74 @@
+/**
+ * 2.5 - Kopa respond
+ * -------------------------------------------------------------------
+ */
+
+.comment-respond{
+	.comment-reply-title{
+		font-size:20px;
+		line-height:26px;
+		color:$color-black;
+		margin:0 0 50px;
+		@include uppercase;
+		@include lato-bold;
+	}
+	form{
+		padding:0 0 50px;
+		label.error{
+			font-size:14px;
+			line-height:20px;
+			color:red;
+			position: absolute;
+			width: 100%;
+			display: block;
+			left:15px;
+			top: 12px;
+			text-align:left;
+			@include lato;
+		}
+		textarea.error,input.error{
+			border-color:red!important;
+		}
+		input[type="text"],input[type="email"],textarea{
+			font-size:14px;
+			line-height:26px;
+			color:$color-gray;
+			width:100%;
+			border:1px solid #e6e6e6;
+			padding:10px 16px;
+			margin:0 0 30px;
+			@include lato;
+			@include transition(0.3s);
+			&:focus{
+				border-color:$color-black;
+				outline:0;
+			}
+		}
+		input[type="submit"]{
+			width:165px;
+			height:50px;
+			text-align:center;
+			font-size:14px;
+			line-height:26px;
+			color:$color-gray;
+			border:1px solid #e6e6e6;
+			background:none;
+			padding:0;
+			@include uppercase;
+			@include lato;
+			&:focus{
+				border-color:$color-black;
+				outline:0;
+			}
+		}
+		input[type="text"],input[type="email"]{
+			height:45px;
+		}
+		textarea{
+			height:160px;
+		}
+		p{
+			margin:0;
+		}
+	}
+}

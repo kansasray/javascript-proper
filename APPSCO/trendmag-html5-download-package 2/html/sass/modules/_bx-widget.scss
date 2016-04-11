@@ -1,0 +1,90 @@
+/**
+ * 2.22 - bx-widget
+ * -------------------------------------------------------------------
+ */
+
+// Global config
+.kopa-bx-widget{
+	.widget-content{
+		.bx-wrapper{
+			margin:0;
+ 			.bx-viewport{
+ 				box-shadow:none;
+ 				-moz-box-shadow:none;
+ 				-webkit-box-shadow:none;
+ 				border: 0;
+  				left: 0;
+ 			}
+ 			.bx-controls{
+ 				border-top: 1px solid #ededed;
+ 				.bx-pager{
+ 					min-height:50px;
+ 					padding:19px 0;
+ 					font-size:0;
+ 					line-height:0;
+ 					position:static;
+ 					.bx-pager-link{
+						width: 11px;
+						height: 11px;
+						margin:0 2.5px;
+						background: none;
+						border: 1px solid #ededed;
+						&:hover{
+							background:$color-black;
+ 							border-color:$color-black;
+						}
+ 					}
+ 					.bx-pager-link.active{
+ 						background:$color-black;
+ 						border-color:$color-black;
+ 					}
+ 				}
+
+ 				.bx-controls-direction{
+ 					>a{
+ 						text-shadow:none;
+						width:12px;
+						height:12px;
+						background-position:center;
+						background-repeat:no-repeat;
+						text-indent:-99999px;
+						opacity:0.4;
+						margin:0;
+						color:transparent;
+						top:auto;
+						bottom:18px;
+						@include transition(0.3s);
+						&:before,&:after{
+							display:none;
+						}
+						&:hover{
+							opacity:1;
+						}
+ 					}
+ 					.bx-prev{
+ 						left:26px;
+						background-image:url('images/icon/arrow-top.png');
+ 					}
+ 					.bx-next{
+						right:26px;
+						background-image:url('images/icon/arrow-bottom.png');
+ 					}
+ 				}
+ 			}
+ 		}
+	}
+}
+
+ .kopa-bx-widget{
+ 	border:1px solid $color-border;
+
+ 	// control
+
+	.entry-item{
+		padding:0 30px 30px;
+		
+		.entry-thumb{
+			margin:0 0 19px;
+		}
+	}
+ }

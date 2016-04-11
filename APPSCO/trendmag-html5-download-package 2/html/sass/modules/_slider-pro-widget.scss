@@ -1,0 +1,447 @@
+/**
+ * 2.6 - slider-pro-widget
+ * -------------------------------------------------------------------
+ */
+
+
+// Global
+.kopa-slider-pro-widget{
+	.sp-slide{
+		transition:background 0.3s ease 0s;
+		-webkit-transition:background 0.3s ease 0s;
+		-moz-transition:background 0.3s ease 0s;
+		-ms-transition:background 0.3s ease 0s;
+		.entry-item{
+			position:relative;
+			.entry-thumb{
+				img{
+					width:100%;
+					height:auto;
+				}
+				.kopa-icon{
+					width:64px;
+					height:64px;
+					line-height:64px;
+					text-align:center;
+					display:block;
+					position:absolute;
+					left:0;
+					right:0;
+					top:40%;
+					z-index:2;
+					margin:0 auto;
+					background:rgb(255,255,255);
+				    background: transparent\9;
+				    background:rgba(255,255,255,0.6);
+				    zoom: 1;
+				    color:$color-black;
+					@include circle;
+					@media(max-width:768px){
+						margin-top:-32px;
+						top:50%;
+					}
+					@media(max-width:480px){
+						width:40px;
+						height:40px;
+						line-height:40px;
+						margin-top:-20px;
+						top:50%;
+					}
+				}
+				&:after{
+					content:'';
+					width:100%;
+					height:100%;
+					position:absolute;
+					display:block;
+					top:0;
+					left:0;
+					background:rgb(0,0,0);
+				    background: transparent\9;
+				    background:rgba(0,0,0,0.8);
+				    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc000000,endColorstr=#cc000000);
+				    zoom: 1;
+				    @include transition(0.3s);
+				}
+			}
+			.entry-content{
+				position:absolute;
+				left:70px;
+				right:70px;
+				bottom:56px;
+				display:none;
+				@media(max-width:767px){
+					display:none!important;
+				}
+				>span{
+					font-size:18px;
+					line-height:33px;
+					color:$color-white;
+					@include uppercase;
+					@include lato;
+				}
+				.entry-title{
+					font-size:32px;
+					line-height:44px;
+					color:$color-white;
+					margin:0;
+					@include uppercase;
+					@include lato-bold;
+					a{
+						transition:all 0.3s ease 0s!important;
+						-webkit-transition:all 0.3s ease 0s!important;
+						-moz-transition:all 0.3s ease 0s!important;
+						-ms-transition:all 0.3s ease 0s!important;
+						@extend %inherit;
+						&:hover{
+							color:#444444;
+						}
+					}
+				}
+			}
+		}
+	}
+	.sp-right-thumbnails{
+		height:100%!important;
+	}
+
+	.sp-previous-arrow{
+		@media(max-width:767px){
+			width:30px!important;
+			height:30px!important;
+			line-height:30px!important;
+		}
+	}
+	.sp-next-arrow{
+		@media(max-width:767px){
+			width:30px!important;
+			height:30px!important;
+			line-height:30px!important;
+		}
+	}
+}
+
+.slider-pro-1{
+	overflow:hidden;
+	.sp-slide.sp-selected{
+		.entry-item{
+			.entry-thumb{
+				&:after{
+				    background:rgba(0,0,0,0.3);
+				    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4c000000,endColorstr=#4c000000);
+				}
+			}
+			.entry-content{
+				display:block;
+			}
+		}
+	}
+	
+
+	// Buttons
+	.sp-slides-container{
+		&:hover{
+			.sp-arrows{
+				.sp-previous-arrow{
+					margin-left:80px;
+					@media(max-width:767px){
+						margin-left:10px;
+					}
+				}
+				.sp-next-arrow{
+					margin-right:80px;
+					@media(max-width:767px){
+						margin-right:10px;
+					}
+				}
+			}
+		}
+	}
+	.sp-arrows{
+		opacity:1;
+		.sp-arrow{
+			width: 50px;
+			height: 50px;
+			padding: 0;
+			line-height: 50px;
+			display: block;
+			border: 1px solid #676767;
+			text-align: center;
+			opacity: 0.4;
+			@include circle;
+			@include transition(0.5s);
+			&:hover{
+				opacity:1;
+			}
+			&:before{
+				display:none;
+			}
+			&:after{
+				content:'';
+				display: inline-block;
+				width: 22px;
+				height: 20px;
+				margin-top: -4px;
+				background-repeat: no-repeat;
+				background-position: center;
+				vertical-align: middle;
+				background-color: transparent;
+				transform:none;
+				-ms-transform:none;
+				-moz-transform:none;
+				-webkit-transform:none;
+				position: static;
+			}
+		}
+		.sp-previous-arrow{
+			margin-left:-200px;
+			&:after{
+				background-image: url("images/icon/arrow-left-1.png");
+			}
+		}
+		.sp-next-arrow{
+			margin-right:-200px;
+			&:after{
+				background-image: url("images/icon/arrow-right-1.png");
+			}
+		}
+	}
+}
+
+
+.slider-pro-2{
+	.widget-content{
+		background:#f9f9f9;
+		padding:10px;
+		.sp-caption-container{
+			display:none!important;
+		}
+
+		// Main slider
+		.sp-slides-container{
+			.sp-image-container{
+				position:relative;
+				&:before{
+					content:'';
+					width:100%;
+					height:100%;
+					position:absolute;
+					top:0;
+					left:0;
+					background:rgb(0,0,0);
+				    background: transparent\9;
+				    background:rgba(0,0,0,0.5);
+				    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);
+				    zoom: 1;
+				    z-index:2;
+				}
+				img{
+
+				}
+			}
+			.entry-title{
+				position:absolute;
+				left:20px;
+				bottom:50px;
+				z-index:3;
+				@media(max-width:767px){
+					bottom:10px;
+				}
+			}
+		}
+
+		// Thumb
+		.sp-thumbnails-container{
+			.sp-thumbnail-container{
+				margin:5px 0;
+				cursor:pointer;
+				&:hover{
+					.sp-thumbnail{
+						&:before{
+							opacity:1;
+						}
+					}
+				}
+				.sp-thumbnail{
+					&:before{
+						content:'';
+						opacity:0;
+						width:100%;
+						height:100%;
+						position:absolute;
+						top:0;
+						left:0;
+						background:rgb(0,0,0);
+					    background: transparent\9;
+					    background:rgba(0,0,0,0.4);
+					    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
+					    zoom: 1;
+					    z-index:2;
+						@include transition(0.3s);
+					}
+				}
+			}
+			.sp-thumbnail-container.sp-selected-thumbnail{
+				&:before,&:after{
+					display:none;
+				}
+				.sp-thumbnail{
+					&:before{
+					    opacity:1;
+					}
+				}
+			}
+		}
+
+	}
+}
+
+.slider-pro-3{
+	overflow:hidden;
+	.sp-slide.sp-selected{
+		.entry-item{
+			.entry-thumb{
+				&:after{
+				    background:rgba(0,0,0,0.3);
+				    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4c000000,endColorstr=#4c000000);
+				}
+			}
+			.entry-content{
+				display:block;
+			}
+		}
+	}
+
+	// Buttons
+	.sp-slides-container{
+		&:hover{
+			.sp-arrows{
+				.sp-previous-arrow{
+					margin-left:28px;
+					@media(max-width:767px){
+						margin-left:10px;
+					}
+				}
+				.sp-next-arrow{
+					margin-right:28px;
+					@media(max-width:767px){
+						margin-right:10px;
+					}
+				}
+			}
+		}
+	}
+	.sp-arrows{
+		opacity:1;
+		.sp-arrow{
+			width: 50px;
+			height: 50px;
+			padding: 0;
+			line-height: 50px;
+			display: block;
+			border: 1px solid #676767;
+			text-align: center;
+			opacity: 0.4;
+			@include circle;
+			@include transition(0.5s);
+			&:hover{
+				opacity:1;
+			}
+			&:before{
+				display:none;
+			}
+			&:after{
+				content:'';
+				display: inline-block;
+				width: 22px;
+				height: 20px;
+				margin-top: -4px;
+				background-repeat: no-repeat;
+				background-position: center;
+				vertical-align: middle;
+				background-color: transparent;
+				transform:none;
+				-ms-transform:none;
+				-moz-transform:none;
+				-webkit-transform:none;
+				position: static;
+			}
+		}
+		.sp-previous-arrow{
+			margin-left:-200px;
+			&:after{
+				background-image: url("images/icon/arrow-left-1.png");
+			}
+		}
+		.sp-next-arrow{
+			margin-right:-200px;
+			&:after{
+				background-image: url("images/icon/arrow-right-1.png");
+			}
+		}
+	}
+	// Thumb
+	.sp-thumbnails-container{
+		margin-top:-3px;
+		.sp-thumbnail-container{
+			margin:5px 0 0;
+			cursor:pointer;
+			.sp-thumbnail{
+				&:before{
+					content:'';
+					opacity:0;
+					width:100%;
+					height:100%;
+					position:absolute;
+					top:0;
+					left:0;
+					background:rgb(0,0,0);
+				    background: transparent\9;
+				    background:rgba(0,0,0,0.4);
+				    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
+				    zoom: 1;
+				    z-index:2;
+					@include transition(0.3s);
+				}
+			}
+		}
+		.sp-thumbnail-container.sp-selected-thumbnail{
+			&:before,&:after{
+				display:none;
+			}
+			.sp-thumbnail{
+				&:before{
+				    opacity:1;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

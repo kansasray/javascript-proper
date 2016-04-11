@@ -1,0 +1,299 @@
+/**
+ * 3.1 - elements-page
+ * -------------------------------------------------------------------
+ */
+
+
+.wrap-elements{
+	padding-top:52px;
+}
+
+.element-box{
+	padding:0 0 42px;
+	.element-content.paragraph{
+		>p{
+			margin:0 0 27px;
+		}
+	}
+}
+
+blockquote{
+	font-size:19px;
+	line-height:26px;
+	color:$color-gray;
+	border:0;
+	padding:0 0 0 20px;
+	position:relative;
+	@include font-italic;
+	&:before{
+		display:block;
+		content:'';
+		width:3px;
+		position:absolute;
+		top:6px;
+		bottom:6px;
+		left:0;
+		background:$color-black;
+	}
+}
+
+
+// Dropcap
+.kopa-dropcap{
+	display:inline-block;
+	font-size:26px;
+	line-height:35px;
+	padding:3px 14px;
+	margin:2px 8px 8px 0;
+	float:left;
+	@include lato-light;
+	@include uppercase;
+}
+
+.kopa-dropcap.style-1{
+	color:$color-black;
+}
+
+.kopa-dropcap.style-2{
+	color:$color-white;
+	background:$color-black;
+	@include circle;
+}
+
+.kopa-dropcap.style-3{
+	color:$color-white;
+	background:$color-black;
+}
+
+
+// Alert
+html .alert{
+	font-size:14px;
+	line-height:20px;
+	border-radius:0;
+	padding:9px 20px;
+	@include font;
+	button{
+		opacity:1;
+	}
+	span{
+		font-size:11px;
+		display:block;
+		color:$color-white;
+		width:15px;
+		height:15px;
+		text-align:center;
+		margin-top:3px;
+		@include circle;
+		i{
+			line-height:15px;
+		}
+	}
+}
+
+.alert.alert-notice{
+	border-color:#eeeeee;
+	background-color:transparent;
+	span{
+		background-color:#949494;
+	}
+}
+
+.alert.alert-warning{
+	border-color:#e6c6c6;
+	background-color:#fbeed5;
+	span{
+		background-color:#ad8643;
+	}
+}
+
+.alert.alert-success{
+	border-color:#cddbc7;
+	background-color:#dff0d8;
+	span{
+		background-color:#468847;
+	}
+}
+
+.alert.alert-danger{
+	border-color:#ebc8c8;
+	background-color:#f2dede;
+	span{
+		background-color:#b94a48;
+	}
+}
+
+.alert.alert-info{
+	border-color:#c6dbe6;
+	background-color:#d9edf7;
+	span{
+		background-color:#3a87ad;
+	}
+}
+
+
+// accordion && toggle
+.panel-group.accordion,.panel-group.toggle{
+	.panel{
+		border:0;
+		border-radius:0;
+		box-shadow:none;
+		margin:-1px 0 0;
+		.panel-heading{
+			background:none;
+			border:1px solid #e6e6e6;
+			border-radius:0;
+			padding:11px 57px 10px 20px;
+			position:relative;
+			.panel-title{
+				a{
+					.tab-title{
+						font-size:14px;
+						line-height:22px;
+						color:$color-black;
+						@include lato;
+						@include uppercase;
+					}
+					.b-collapse{
+						position:absolute;
+						right:14px;
+						top:10px;
+						font-size:26px;
+						display:inline-block;
+						color:$color-black;
+						&:before{
+							content:'';
+							width:1px;
+							height:20px;
+							background:$color-black;
+							position:absolute;
+							top:2px;
+							right:26px;
+							display:block;
+						}
+					}
+				}
+			}
+		}
+		.panel-collapse{
+			.panel-body{
+				border:0;
+				p{
+					margin:0 0 10px;
+				}
+			}
+		}
+	}
+}
+
+
+// Tabs nav
+.nav.nav-tabs{
+	border:0;
+	font-size:0;
+	line-height:0;
+	li{
+		background:#f5f5f5;
+		margin:0 0 0 -1px;
+		padding:0;
+		border:1px solid #dedede;
+		&:first-child{
+			margin-left:0;
+		}
+		a{
+			@media(max-width:530px){
+				padding:5px 20px;
+			}
+			font-size:14px;
+			line-height:22px;
+			color:$color-black;
+			border-radius:0;
+			border:0;
+			margin:0;
+			padding:9px 41px;
+			@include uppercase;
+			@include lato;
+			&:hover,&:focus{
+				border:0;
+			}
+		}
+	}
+	.active{
+		border-bottom-color:$color-white;
+		a{
+			border-radius:0;
+		}
+	}
+}
+.tab-content{
+	border:1px solid #dedede;
+	margin:-1px 0 0;
+	.tab-pane{
+		padding:24px 15px 17px;
+	}
+}
+
+
+// Button
+.btn{
+	border-radius:0;
+	font-size:12px;
+	line-height:24px;
+	padding:9px 16px;
+	@include uppercase;
+	@include lato;
+}
+.btn.btn-sm{
+	padding:7px 14px;
+}
+.btn.btn-lg{
+	padding:12px 18px;
+}
+.btn-black{
+	color:$color-white;
+	background:$color-black;
+	border-color:$color-black;
+	@include a-hover;
+}
+.btn-default{
+	color:#6d6d6d;
+	border-color:#dedede;
+}
+
+// Column
+.column{
+	h5{
+		font-size:14px;
+		line-height:22px;
+		margin:0 0 17px;
+		@include uppercase;
+		@include lato;
+	}
+	.row{
+		margin-top:17px;
+	}
+	p{
+		color:#545454;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

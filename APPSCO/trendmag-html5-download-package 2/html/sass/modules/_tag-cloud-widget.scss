@@ -1,0 +1,27 @@
+/**
+ * 2.7 - tag-cloud-widget
+ * -------------------------------------------------------------------
+ */
+
+.widget_tag_cloud{
+	border:1px solid $color-border;
+	.tagcloud{
+		font-size:0;
+		line-height:0;
+		padding:0 30px 26px;
+		a{
+			display:inline-block;
+			margin:0 4px 4px 0;
+			font-size:14px;
+			line-height:20px;
+			color:$color-black;
+			border:1px solid $color-border;
+			padding:4px 10px;
+			@include font;
+			@include a-hover-1;
+		}
+		.big{
+			@include font-bold;
+		}
+	}
+}

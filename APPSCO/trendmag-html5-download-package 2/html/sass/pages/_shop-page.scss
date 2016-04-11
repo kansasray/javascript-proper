@@ -1,0 +1,83 @@
+/**
+ * 3.4 - shop-page
+ * -------------------------------------------------------------------
+ */
+
+
+.kopa-products-list{
+	.kopa-row-30{
+		position:relative;
+		&:first-child{
+			&:before{
+				display:none;
+			}
+			.match-height-item{
+				.entry-item{
+					padding-top:0;
+				}
+			}
+		}
+		&:before{
+			@media(max-width:530px){
+				display:none;
+			}
+			content:'';
+			display:block;
+			position:absolute;
+			left:15px;
+			right:15px;
+			top:0;
+			height:1px;
+			background:$color-border;
+		}
+	}
+	.match-height-item{
+		border-left:1px solid $color-border;
+		@media(max-width:767px){
+			height:auto!important;
+		}
+		.entry-item{
+			padding:40px 0 33px;
+			.entry-content{
+				position:relative;
+				padding:20px 0 0;
+			}
+			.product-name{
+				display:block;
+				margin:0 0 7px;
+				font-size:14px;
+				line-height:24px;
+				color:#333333;
+				@include uppercase;
+				@include lato;
+			}
+			.product-categorie{
+				display:block;
+				font-size:17px;
+				line-height:24px;
+				color:$color-gray;
+				margin:0 66px 5px 0;
+				@include font;
+				a{
+					@extend %inherit;
+					@include a-hover;
+				}
+			}
+			.old-price{
+				display:inline-block;
+				margin:0 25px 0 0;
+				font-size:17px;
+				line-height:24px;
+				color:$color-gray;
+				@include font;
+			}
+			.current-price{
+				display:inline-block;
+				font-size:17px;
+				line-height:24px;
+				color:$color-black;
+				@include font-bold;
+			}
+		}
+	}
+}

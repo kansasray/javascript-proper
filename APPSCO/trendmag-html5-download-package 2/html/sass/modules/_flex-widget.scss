@@ -1,0 +1,283 @@
+/**
+ * 2.4 - flex-widget
+ * -------------------------------------------------------------------
+ */
+
+
+// Global
+.kopa-flex-widget{
+	.flexslider{
+		margin:0;
+		border:0;
+	}
+}
+
+.flex-control-nav{
+	font-size:0;
+	line-height:0;
+	li{
+		margin:0 2.5px;
+		a{
+			background:none;
+			border:1px solid $color-border;
+			@include rs-box-shadow;
+			&:hover{
+				background:$color-black;
+				border:1px solid $color-black;
+			}
+		}
+		a.flex-active{
+			background:$color-black;
+			border:1px solid $color-black;
+		}
+	}
+}
+
+.flex-direction-nav{
+	li{
+		a{
+			text-shadow:none;
+			width:12px;
+			height:12px;
+			background-position:center;
+			background-repeat:no-repeat;
+			text-indent:-99999px;
+			opacity:0.4;
+			margin:0;
+			color:transparent;
+			top:auto;
+			bottom:18px;
+			@include transition(0.3s);
+			&:before,&:after{
+				display:none;
+			}
+			&:hover{
+				opacity:1;
+			}
+		}
+	}
+}
+
+
+// Vertical
+
+.directionnav-vertical{
+	.flex-direction-nav{
+		li{
+			.flex-prev{
+				left:26px!important;
+				background-image:url('images/icon/arrow-top.png');
+			}
+			.flex-next{
+				right:26px!important;
+				background-image:url('images/icon/arrow-bottom.png');
+			}
+		}
+	}
+
+	.flex-control-nav{
+		border-top:1px solid $color-border;
+		position:static;
+		padding:19px 5px;
+	}
+}
+
+
+// Horizontal
+
+.directionnav-horizontal{
+	overflow:hidden;
+	&:hover{
+		.flex-direction-nav{
+			li{
+				.flex-prev{
+					left:20px!important;
+				}
+				.flex-next{
+					right:20px!important;
+				}
+			}
+		}
+	}
+	.flex-direction-nav{
+		li{
+			a{
+				width:50px;
+				height:50px;
+				background-color:$color-black;
+				opacity:0.4;
+				border:1px solid $color-white;
+				top:50%;
+				margin-top:-25px;
+				bottom:auto;
+				@include circle;
+				&:hover{
+					opacity:1;
+				}
+			}
+			.flex-prev{
+				left:-100px!important;
+				background-image:url('images/icon/arrow-left-1.png');
+			}
+			.flex-next{
+				right:-100px!important;
+				background-image:url('images/icon/arrow-right-1.png');
+			}
+		}
+	}
+	.flex-control-nav{
+		position:absolute;
+		bottom:20px;
+		padding:0 5px;
+		li{
+			margin:0 2.5px;
+			a{
+				background:$color-white;
+				border:1px solid #e6e7e7;
+				@include rs-box-shadow;
+				&:hover{
+					background:$color-white;
+					border:1px solid #e6e7e7;
+				}
+			}
+			a.flex-active{
+				background:$color-black;
+				border:1px solid $color-black;
+			}
+		}
+	}
+}
+
+
+
+.flex-widget-1{
+	border:1px solid $color-border;
+	.entry-item{
+		padding:0 30px 30px;
+		
+		.entry-thumb{
+			margin:0 0 19px;
+		}
+	}
+}
+
+.entry-item{
+	.flex-widget-2.widget{
+		margin:0;
+	}
+}
+
+
+
+.flex-widget-3{
+	.widget-content{
+		position:relative;
+		.flex-overlay{
+			width:100%;
+			height:100%;
+			position:absolute;
+			top:0;
+			left:0;
+			&:before{
+				width:100%;
+				height:100%;
+				position:absolute;
+				top:0;
+				left:0;
+				background:rgb(0,0,0);
+				background: transparent\9;
+				background:rgba(0,0,0,0.4);
+				filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
+				zoom: 1;
+				content:'';
+				z-index:2;
+			}
+		}
+	}
+	.entry-content{
+		width:90%;
+		max-width:919px;
+		margin:0 auto;
+	}
+	.flexslider{
+		background:none;
+		z-index:3;
+		.flex-control-nav{
+			position:static;
+			margin:0;
+			padding:20px 0 60px;
+			li{
+				margin:0 3.5px;
+				a{
+					width:21px;
+					height:4px;
+					border-radius:0;
+					background:#909090;
+					padding:0;
+					margin:0;
+					border:0;
+				}
+				.flex-active{
+					background:$color-white;
+				}
+			}
+		}
+	}
+	.entry-item{
+		text-align:center;
+		padding:0 0 25px;
+		.entry-thumb{
+			width:101px;
+			height:101px;
+			overflow:hidden;
+			margin:60px auto 22px;
+			@include circle;
+		}
+		h4{
+			margin:0 0 26px;
+			a{
+				font-size:17px;
+				line-height:26px;
+				color:$color-white;
+				@include uppercase;
+				@include lato;
+				@include a-hover;
+			}
+		}
+		.entry-content{
+			p{
+				color:$color-white;
+				margin:0;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

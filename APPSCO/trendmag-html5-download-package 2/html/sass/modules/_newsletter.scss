@@ -1,0 +1,83 @@
+/**
+ * 2.14 - newsletter
+ * -------------------------------------------------------------------
+ */
+
+
+.kopa-newsletter-widget{
+	.widget-content{
+		.inner{
+			background:#2c2c2c;
+			font-size:0;
+			line-height:0;
+			position:relative;
+			width:100%;
+			max-width:578px;
+			margin:0 auto;
+			.kopa-label{
+				font-size:13px;
+				line-height:1;
+				padding:0 14px 0 0;
+				border-right:1px solid $color-white;
+				color:$color-white;
+				position:absolute;
+				top:17px;
+				left:20px;
+				@include lato-bold;
+				@include uppercase;
+			}
+			input{
+				border:0;
+				font-size:14px;
+				line-height:1;
+				color:#626262;
+				height:48px;
+				padding:17px 62px 15px 135px;
+				width:100%;
+				background:none;
+				outline:2px solid transparent;
+				@include transition(0.3s);
+				&:active,&:focus{
+					outline:2px solid $color-black;
+				}
+			}
+			::-webkit-input-placeholder {
+			   color:#626262;
+			   @include lato;
+			}
+
+			:-moz-placeholder { 
+			   color:#626262;
+			   @include lato;  
+			}
+
+			::-moz-placeholder {  
+			   color:#626262;
+			   @include lato;  
+			}
+
+			:-ms-input-placeholder {  
+			   color:#626262;
+			   @include lato;  
+			}
+			button{
+				position:absolute;
+				right:0;
+				top:0;
+				border:0;
+				text-align:center;
+				width:62px;
+				height:48px;
+				line-height:48px;
+				background:none;
+				i{
+					display:inline-block;
+					width:20px;
+					height:14px;
+					position:relative;
+					background:url('images/icon/arrow-right-1.png') center no-repeat;
+				}
+			}
+		}
+	}
+}

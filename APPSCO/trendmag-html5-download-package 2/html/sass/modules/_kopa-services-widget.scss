@@ -1,0 +1,108 @@
+/**
+ * 2.16 - kopa-services-widget
+ * -------------------------------------------------------------------
+ */
+
+
+
+
+.services-widget-1{
+	.entry-item{
+		text-align:center;
+		padding:0 0 10px;
+		@media(max-width:768px){
+			margin:0 0 30px;
+		}
+		.entry-thumb{
+			margin:0 0 15px;
+			i{
+				font-size:46px;
+				color:$color-gray;
+			}
+		}
+		.title{
+			font-size:14px;
+			line-height:20px;
+			color:$color-black;
+			display:block;
+			@include lato-bold;
+			@include uppercase;
+		}
+		.divier{
+			display:block;
+			margin:15px auto;
+			width:51px;
+			height:1px;
+			background:#b9b9b9;
+		}
+		p{
+			margin:0;
+		}
+	}
+}
+
+.services-widget-2{
+	.widget-content{
+		border-top:1px solid #e6e6e6;
+		border-bottom:1px solid #e6e6e6;
+		@include clearfix;
+		.kopa-col-half{
+			@media(max-width:768px){
+				width:100%;
+			}
+		}
+	}
+	.entry-item{
+		@media(max-width:768px){
+			height:auto!important;
+			border:0;
+			border-bottom:1px solid #e6e6e6;
+			border-left: 1px solid #e6e6e6;
+		}
+		padding:34px 0 16px;
+		text-align:center;
+		border-left:1px solid #e6e6e6;
+		&:last-child{
+			margin-left:-1px;
+			border-right: 1px solid #e6e6e6;
+		}
+	}
+	.title{
+		font-size:20px;
+		line-height:26px;
+		display:block;
+		margin:0 0 7px;
+		color:$color-black;
+		@include uppercase;
+		@include lato-bold;
+	}
+	.services-description{
+		font-size:17px;
+		line-height:24px;
+		display:block;
+		margin:0 0 14px;
+		color:$color-gray;
+		@include font-italic;
+	}
+	.more-info{
+		font-size:12px;
+		line-height:24px;
+		color:$color-black;
+		margin:0 0 10px;
+		@include uppercase;
+		@include lato;
+		@include a-hover;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

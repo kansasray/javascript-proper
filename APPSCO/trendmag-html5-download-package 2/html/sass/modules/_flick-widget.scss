@@ -1,0 +1,67 @@
+/**
+ * 2.12 - flick-widget
+ * -------------------------------------------------------------------
+ */
+
+
+.kopa-photo-flick-widget{
+	border:1px solid $color-border;
+	.widget-content{
+		padding:0 30px 30px;
+	}
+	ul{
+		@include ul;
+		padding:0;
+		margin:-2px 0 0;
+		font-size:0;
+		line-height:0;
+		li{
+			width:50%;
+			display:inline-block;
+			padding:0 1px;
+			margin:2px 0 0;
+			@media(max-width:992px){
+				width:25%;
+			}
+			@media(max-width:530px){
+				width:33.3333%;
+			}
+			@media(max-width:400px){
+				width:50%;
+			}
+			a{
+				display:block;
+				width:100%!important;
+				height:120px!important;
+				position:relative;
+				text-align:center;
+				@media(max-width:1240px) and (min-width:992px){
+					height:80px!important;
+				}
+				&:hover{
+					&:before{
+						opacity:1;
+						visibility:visible;
+					}
+				}
+				&:before{
+					width:100%;
+					height:100%;
+					content:'';
+					display:block;
+					position:absolute;
+					top:0;
+					left:0;
+					z-index:2;
+					background: transparent\9;
+					background: rgba(0, 0, 0, 0.5);
+					filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);
+					zoom: 1;
+					opacity:0;
+					visibility:hidden;
+					@include transition(0.3s);
+				}
+			}
+		}
+	}
+}

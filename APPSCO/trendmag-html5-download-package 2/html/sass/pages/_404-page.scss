@@ -1,0 +1,44 @@
+/**
+ * 3.5 - 404 page
+ * -------------------------------------------------------------------
+ */
+
+
+
+.wrap-404{
+	text-align:center;
+	.search-form{
+		margin:0 auto;
+	}
+}
+
+.search-form{
+	border: 1px solid #eaeaea;
+	width: 311px;
+	@media(max-width:530px){
+		width: 258px!important;
+	}
+	input{
+		@media(max-width:530px){
+			width: 210px!important;
+		}
+		float: left;
+		width: 263px;
+		height: 46px;
+		font-size: 14px;
+		line-height: 16px;
+		color: #adadad;
+		border: 0;
+		padding: 15px;
+		@include lato;
+	}
+	button{
+		float: left;
+		width: 46px;
+		height: 46px;
+		text-align: center;
+		border: 0;
+		padding: 0;
+		background: #f9f9f9;
+	}
+}

@@ -1,0 +1,142 @@
+
+// Font
+@mixin lato{
+	font-family:Lato, sans-serif;
+	font-weight:400;
+}
+@mixin lato-light{
+	font-family:Lato, sans-serif;
+	font-weight:300;
+}
+@mixin lato-bold{
+	font-family:Lato, sans-serif;
+	font-weight:700;
+}
+@mixin lato-black{
+	font-family:Lato, sans-serif;
+	font-weight:900;
+}
+
+@mixin font{
+	font-family:Georgia, serif;
+	font-weight:normal;
+}
+
+@mixin font-italic{
+	font-family:GeorgiaItalic, serif;
+	font-weight:normal;
+}
+
+@mixin font-bold{
+	font-family:GeorgiaBold, serif;
+	font-weight:normal;
+}
+
+@mixin font-bold-italic{
+	font-family:GeorgiaBoldItalic, serif;
+	font-weight:normal;
+}
+
+@mixin playfair{
+	font-family: 'Playfair Display', serif;
+	font-weight:900;
+}
+
+
+
+
+// Clearfix
+@mixin clearfix{
+	&:after,&:before{
+		display:table;
+		content:"";
+	}
+	&:after{
+		clear:both;
+	}
+}
+
+// Global
+
+@mixin reset{
+	appearance:none;
+	-webkit-appearance:none;;
+	-moz-appearance:none;
+	-ms-appearance:none;
+}
+
+@mixin font-awesome-1{
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@mixin font-awesome($content,$font-size){
+	&:before{
+		display: inline-block;
+		font-family: FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		line-height: 1;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		content:$content;
+		font-size:$font-size;
+	}
+}
+@mixin transition($delay){
+	transition:all $delay ease 0s,visibility 0s ease 0s;
+	-ms-transition:all $delay ease 0s,visibility 0s ease 0s;
+	-webkit-transition:all $delay ease 0s,visibility 0s ease 0s;
+	-moz-transition:all $delay ease 0s,visibility 0s ease 0s;
+}
+@mixin a-hover{
+	@include transition(0.3s);
+	&:hover{
+		color:#666666;
+	}
+}
+@mixin a-hover-1{
+	@include transition(0.3s);
+	&:hover{
+		color:#666666;
+	}
+}
+@mixin ul{
+	list-style:none;
+}
+@mixin rs-box-shadow{
+	box-shadow:none;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	-ms-box-shadow:none;
+}
+@mixin uppercase{
+	text-transform:uppercase;
+}
+@mixin circle{
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-ms-border-radius:50%;
+	overflow:hidden;
+}
+
+@mixin opacity($opacityValue){
+	opacity:$opacityValue;
+	-moz-opacity:$opacityValue;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=#{$opacityValue * 100})";
+}
+
+@mixin middle-vertical{
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	-webkit-transform:translateY(-50%);
+	-moz-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+}

@@ -1,0 +1,30 @@
+/**
+ * 2.21 - main-footer
+ * -------------------------------------------------------------------
+ */
+
+
+#kopa-main-footer{
+	background:$color-black;
+	padding:11px 0;
+	.footer-nav{
+		ul{
+			text-align:center;
+			font-size:0;
+			line-height:0;
+			li{
+				display:inline-block;
+				a{
+					font-size:14px;
+					line-height:20px;
+					color:$color-white;
+					display:block;
+					padding:5px 10px;
+					@include uppercase;
+					@include lato-light;
+					@include a-hover;
+				}
+			}
+		}
+	}
+}

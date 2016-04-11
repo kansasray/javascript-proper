@@ -1,0 +1,54 @@
+/**
+ * 2.9 - ads
+ * -------------------------------------------------------------------
+ */
+
+.ads-1,.ads-2{
+	width:100%;
+	text-align:center;
+	background:#f9f9f9;
+	padding:30px 0;
+}
+
+.ads-3{
+	padding-bottom:40px;
+	border-bottom:3px solid $color-black;
+}
+
+.ads-4{
+	text-align:center;
+	.widget-content{
+		max-width: 80%;
+		margin: 0 auto;
+	}
+	img{
+		margin: 40px 0 25px;
+	}
+	+.widget_text{
+		margin-top:-30px!important;
+	}
+}
+.kopa-ads-widget{
+	.widget-content{
+		@media(min-width:320px){
+			max-width:280px;
+		}
+		@media(min-width:400px){
+			max-width:80%;
+		}
+		@media(min-width:768px){
+			max-width:728px;
+		}
+		@media(min-width:850px){
+			max-width:800px;
+		}
+		@media(min-width:992px){
+			max-width:920px;
+		}
+		@media(min-width:1240px){
+			max-width:1170px;
+		}
+		max-width:80%;
+		margin:0 auto;
+	}
+}

@@ -1,0 +1,39 @@
+/**
+ * 2.15 - social-widget
+ * -------------------------------------------------------------------
+ */
+
+
+
+.social-1{
+	.widget-content{
+		ul{
+			text-align:center;
+			font-size:0;
+			line-height:0;
+			li{
+				display:inline-block;
+				margin:0 5px;
+				a{
+					display:block;
+					border:1px solid #2a2a2a;
+					width:40px;
+					height:40px;
+					text-align:center;
+					@include circle;
+					&:hover{
+						i{
+							color:$color-a-hover;
+						}
+					}
+					i{
+						@include transition(0.3s);
+						color:$color-white;
+						font-size:16px;
+						line-height:40px;
+					}
+				}
+			}
+		}
+	}
+}

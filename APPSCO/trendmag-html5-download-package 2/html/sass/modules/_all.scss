@@ -1,0 +1,74 @@
+/**
+ * 2.Wigets
+ * -------------------------------------------------------------------
+ */
+
+
+.widget{
+	margin:0 0 40px;
+}
+
+.sidebar{
+	.widget{
+		margin: 0 0 46px;
+	}
+}
+
+.widget-area-8{
+	.widget{
+		margin:0 0 50px;
+	}
+}
+
+#bottom-sidebar{
+	.widget{
+		margin:0 0 30px;
+	}
+}
+
+
+@import 'main-header';
+@import 'sticker';
+@import 'owl-widget';
+@import 'flex-widget';
+@import 'kopa-respond';
+@import 'slider-pro-widget';
+@import 'tag-cloud-widget';
+@import 'articles-list-widget';
+@import 'ads';
+@import 'filter-articles';
+@import 'shop-widget';
+@import 'flick-widget';
+@import 'text-widget';
+@import 'newsletter';
+@import 'social-widget';
+@import 'kopa-services-widget';
+@import 'kopa-breadcrumb';
+@import 'pagination';
+@import 'kopa-intro-products';
+@import 'bottom-sidebar';
+@import 'main-footer';
+@import 'bx-widget';
+@import 'instagram';
+@import 'contact-widget';
+@import 'widget-defaul';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

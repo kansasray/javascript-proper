@@ -1,0 +1,100 @@
+/**
+ * 2.11 - shop-widget
+ * -------------------------------------------------------------------
+ */
+
+.products-list-1{
+	border:1px solid $color-border;
+	.widget-content{
+		li{
+			@media(max-width:992px){
+				margin:20px 0 0;
+			}
+			.entry-item{
+				@include clearfix;
+				.entry-box{
+					overflow:hidden;
+					h6{
+						font-size:12px;
+						line-height:24px;
+						color:#333333;
+						margin:0 0 1px;
+						@include lato;
+						a{
+							@include uppercase;
+							@include a-hover-1;
+							@extend %inherit;
+						}
+					}
+					.categorie,.old-price{
+						color:$color-gray;
+						font-size:16px;
+						line-height:24px;
+						@include font;
+					}
+					.old-price{
+						text-decoration: line-through;
+					}
+					.categorie{
+						padding-top:2px;
+						margin:0 4px 0 0;
+						float:left;
+					}
+					.price-wrap{
+						text-align:right;
+					}
+					.current-price{
+						font-size:18px;
+						line-height:26px;
+						color:$color-black;
+						margin:11px 0 0;
+						display:block;
+						text-align:left;
+						@include font-bold;
+					}
+				}
+				.entry-thumb{
+					width:50%;
+					max-width:50%;
+					float:left;
+					@media(max-width:1240px) and (min-width:992px){ 
+						max-width:100px;
+					}
+					@media(max-width:992px){
+						float:left!important;
+					}
+				}
+				.entry-box{
+					padding:16px 17px 0 18px;
+				}
+			}
+			&:first-child{
+				border-top:1px solid $color-border;
+			}
+			&:nth-child(odd){
+				.entry-thumb{
+					max-width:50%;
+					float:right;
+				}
+				.entry-box{
+					padding:16px 17px 0;
+					@media(max-width:1240px) and (min-width:992px){ 
+						padding:0 10px;
+					}
+				}
+			}
+			&:nth-child(even){
+				.entry-thumb{
+					max-width:50%;
+					float:left;
+				}
+				.entry-box{
+					padding:16px 17px 0 18px;
+					@media(max-width:1240px) and (min-width:992px){ 
+						padding:5px 5px;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,73 @@
+/**
+ * 2.2 - sticker
+ * -------------------------------------------------------------------
+ */
+
+.sticker-1{
+	overflow:hidden;
+	border:1px solid #e6e6e6;
+	background:$color-white;
+	padding:24px 31px;
+	@include clearfix;
+	
+	@media( max-width:767px ){
+		padding:10px;
+		.wrapper{
+			width:100%!important;
+		}
+	}
+
+	.kp-headline-title{
+		@media(max-width:767px){
+			line-height: 20px;
+			padding: 5px 10px;
+		}
+		font-size:18px;
+		line-height:20px;
+		padding:5px 18px;
+		color:$color-white;
+		background:$color-black;
+		display:inline-block;
+		float:left;
+		position:relative;
+		@include uppercase;
+		@include lato;
+		&:after{
+			width:1px;
+			height:100%;
+			top:0;
+			right:-24px;
+			background:#e6e6e6;
+			position:absolute;
+			margin:0 0 0 10px;
+			display:block;
+			content:'';
+		}
+	}
+	.kp-headline{
+		overflow:hidden;	
+		padding:0 0 0 45px;
+		.caroufredsel_wrapper{
+			margin:0!important;
+		}
+		dl{
+			@include clearfix;
+			dd{
+				float:left;
+				display:block;
+				margin:0 20px;
+				a{
+					font-size:19px;
+					line-height:30px;
+					color:#666666;
+					display:block;
+					font-style:italic;
+					strong{
+						color:$color-black;
+						font-weight:bold;
+					}
+				}
+			}
+		}
+	}
+}
